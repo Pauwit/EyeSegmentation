@@ -12,8 +12,6 @@
     <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk__V1-darkred?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
 </a>
 
-_A YOLO-based pipeline for optic disk, eye diaphragm and eye side analysis from M0 holographic images._
-
 > Part of the [HoloVibes Project](https://github.com/DigitalHolography/Holovibes)
 
 ## Description
