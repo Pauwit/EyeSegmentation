@@ -1,15 +1,15 @@
-# HoloVibes Eye Segmentation & Classification
-<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__Eye__Segmentation-blue?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+# Eye Segmentation & Classification
+<a href="https://huggingface.co/DigitalHolography/YOLO_EyeDiaphragm" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__EyeDiaphragm-blue?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
-<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__EyeSide__Classification-teal?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+<a href="https://huggingface.co/DigitalHolography/YOLO_EyeSide" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__EyeSide-teal?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
-<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__OpticDisk__Segmentation-blue?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+<a href="https://huggingface.co/DigitalHolography/YOLO_OpticDisk" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__OpticDisk-blue?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
-<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk__V1-darkred?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk-darkred?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
 
 > Part of the [HoloVibes Project](https://github.com/DigitalHolography/Holovibes)
