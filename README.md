@@ -1,14 +1,14 @@
 # Eye Segmentation & Classification
-<a href="https://huggingface.co/DigitalHolography/YOLO_EyeDiaphragm" target="_blank" style="text-underline: none">
+<a href="https://huggingface.co/DigitalHolography/YOLO_EyeDiaphragm" target="_blank" style="text-decoration: none">
     <img src="https://img.shields.io/badge/Hugging_Face-YOLO__EyeDiaphragm-blue?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
-<a href="https://huggingface.co/DigitalHolography/YOLO_EyeSide" target="_blank" style="text-underline: none">
+<a href="https://huggingface.co/DigitalHolography/YOLO_EyeSide" target="_blank" style="text-decoration: none">
     <img src="https://img.shields.io/badge/Hugging_Face-YOLO__EyeSide-teal?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
-<a href="https://huggingface.co/DigitalHolography/YOLO_OpticDisk" target="_blank" style="text-underline: none">
+<a href="https://huggingface.co/DigitalHolography/YOLO_OpticDisk" target="_blank" style="text-decoration: none">
     <img src="https://img.shields.io/badge/Hugging_Face-YOLO__OpticDisk-blue?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
-<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk" target="_blank" style="text-underline: none">
+<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk" target="_blank" style="text-decoration: none">
     <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk-darkred?style=plastic&logo=huggingface&logoColor=yellow" alt="Hugging Face link">
 </a>
 
