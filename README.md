@@ -1,15 +1,20 @@
 # HoloVibes Eye Segmentation & Classification
-
+<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__Eye__Segmentation-blue?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+</a>
+<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__EyeSide__Classification-teal?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+</a>
+<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-YOLO__OpticDisk__Segmentation-blue?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+</a>
+<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
+    <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk__V1-darkred?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
+</a>
 
 _A YOLO-based pipeline for optic disk, eye diaphragm and eye side analysis from M0 holographic images._
 
 > Part of the [HoloVibes Project](https://github.com/DigitalHolography/Holovibes)
-
-<a href="https://huggingface.co/DigitalHolography/UResNet_OpticDisk_V1/tree/main" target="_blank">
-    <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk__V1-blue?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
-</a>
-
-This project is part of the [HoloVibes project](https://github.com/DigitalHolography/Holovibes).
 
 This repository provides a complete pipeline for semantic segmentation/classification of optic disks, eye diaphragms and eye side from medical **M0** images generated from the [HoloDoppler application](https://github.com/DigitalHolography/HoloDoppler).
 
