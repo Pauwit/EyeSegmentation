@@ -3,64 +3,29 @@
     <img src="https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk__V1-blue?style=plastic&logo=huggingface&logoColor=yellow&link=https%3A%2F%2Fhuggingface.co%2FDigitalHolography%2FUResNet_OpticDisk_V1%2Ftree%2Fmain" alt="Hugging Face link">
 </a>
 
-This repository provides a complete pipeline for semantic segmentation of optic disk from medical M0 images using a U-Res-Net convolutional neural network. The project includes scripts for dataset preparation, data augmentation, model training, and inference.
+This project is part of the [HoloVibes project](https://github.com/DigitalHolography/Holovibes).
 
-The core of this project is a U-Net-based architecture with residual blocks (U-Res-Net) implemented in PyTorch. The model is trained to generate binary masks that accurately outline the optic disk region in grayscale eye images.
+This repository provides a complete pipeline for semantic segmentation/classification of optic disks, eye diaphragms and eye side from medical **M0** images generated from the [HoloDoppler application](https://github.com/DigitalHolography/HoloDoppler).
 
-A pretrained model is available for download on the Hugging Face link above to run the inference locally.
+This project heavily uses the Ultralytics' YOLO library. Their links can be found in the yolo.ipynb notebook.
+
+Pretrained models are available for download on the Hugging Face links above to run the prediction locally.
 
 ## Repository Structure
 
 ```
-├── create_dataset.ipynb  # (Experimental) Notebook for dataset preparation
-├── detector.ipynb        # Notebook for running inference on an image
-├── optic_disk.ipynb      # Main notebook for U-Res-Net training and evaluation
-├── unet.ipynb            # (Experimental) U-Net training on Carvana dataset
-└── pngs.txt              # List of image paths for dataset creation
+├── dataset.ipynb      # (EXPERIMENTAL) Notebook for dataset creation/preparation and manipulation
+├── detector.ipynb     # (DEPRECATED) Notebook for running predictions on U-ResNet models
+├── eye.ipynb          # Notebook for eye diaphragm prediction and vizualisation
+├── eye_side.ipynb     # Notebook for eye side prediction and vizualisation
+├── optic_disk.ipynb   # Notebook for optic disk prediction and vizualisation
+├── unet.ipynb         # (DEPRECATED) Self made U-Net training with PyTorch
+├── uresnet.ipynb      # (DEPRECATED) Self made U-ResNet training with PyTorch
+├── pngs.txt           # (INFORAMTION) List of image paths used for dataset creation
+└── yolo.ipynb         # Notebook for Ultralytics' YOLO information and training
 ```
 
-- **`optic_disk.ipynb`**: The primary notebook for this project. It contains the code for defining the U-Res-Net, setting up the dataset and dataloaders, running the training and validation loops, and visualizing results.
-- **`detector.ipynb`**: A streamlined notebook for detecting the optic disk in a single image using a pre-trained model.
-- **`create_dataset.ipynb`**: Provides functions to extract frames from video files and organize them into a dataset suitable for training.
-
-## Usage
-
-### Prerequisites
-
-You need a Python environment with the following libraries installed. A GPU with CUDA is highly recommended for training.
-
-- `torch` & `torchvision`
-- `opencv-python`
-- `scikit-image`
-- `numpy`
-- `matplotlib`
-- `Pillow (PIL)`
-- `tqdm`
-
-### 1. Dataset Preparation
-
-1.  Place your training images in the `data/optic_disk/train/` directory.
-2.  Place the corresponding binary masks in the `data/optic_disk/train_masks/` directory. Ensure that image and mask filenames match.
-
-### 2. Training the Model
-
-1.  Open the `optic_disk.ipynb` notebook.
-2.  Configure the training parameters in the first few cells, such as `DATASET_DIR`, `IMAGE_SIZE`, `LEARNING_RATE`, `BATCH_SIZE`, and `EPOCHS`.
-3.  Execute all cells in the notebook to start the training process.
-4.  The training loop will save the best model weights (based on validation Dice score) to the path specified by the `path` argument in the `train_uresnet` function (e.g., `models/optic_disk.pth`).
-5.  Training progress, including loss and Dice scores for both training and validation sets, will be plotted at the end.
-
-### 3. Running Inference
-
-1.  If you didn't train a model yourself, download it from the Hugging Face link above (e.g., in `"models/optic_disk.pth"`)
-2.  Open the `detector.ipynb` notebook.
-3.  Set the `MODEL_PATH` variable to the location of your trained model file (e.g., `"models/optic_disk.pth"`).
-4.  Set the `IMAGE_PATH` variable to the path of the M0 image you want to process.
-5.  (Optional) Set the `SAVE_PATH` variable to a file path if you wish to save the resulting mask as a PNG image. Set it to `None` to disable saving.
-6.  Run all the cells in the notebook. A plot will be displayed showing the original image and the predicted mask side-by-side.
-
-## Results
-
-The U-Res-Net model is trained using a combined loss function (BCEWithLogitsLoss + Dice Loss) and achieves a high segmentation performance, with a **DICE coefficient of approximately 0.955** on the validation set.
-
-The inference script (`detector.ipynb`) applies a post-processing step that isolates the largest connected object in the predicted mask. This effectively removes any small, spurious detections and produces a clean, single-region segmentation of the optic disk, which is useful for subsequent analysis. The final output is a binary mask highlighting the detected optic disk region.
+The important notebooks for predictions :
+- **`eye.ipynb`**: Eye diaphragm segmentation
+- **`eye_side.ipynb`**: Eye side classification
+- **`optic_disk.ipynb`**: Optic disk segmentation
