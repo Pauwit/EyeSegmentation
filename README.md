@@ -16,6 +16,8 @@ _A YOLO-based pipeline for optic disk, eye diaphragm and eye side analysis from 
 
 > Part of the [HoloVibes Project](https://github.com/DigitalHolography/Holovibes)
 
+## Description
+
 This repository provides a complete pipeline for semantic segmentation/classification of optic disks, eye diaphragms and eye side from medical **M0** images generated from the [HoloDoppler application](https://github.com/DigitalHolography/HoloDoppler).
 
 This project heavily uses the Ultralytics' YOLO library. Their links can be found in the yolo.ipynb notebook.
