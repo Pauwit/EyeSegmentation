@@ -23,9 +23,9 @@ Pretrained models are available for download on the Hugging Face links above to 
 ├── eye.ipynb          # Notebook for eye diaphragm prediction and vizualisation
 ├── eye_side.ipynb     # Notebook for eye side prediction and vizualisation
 ├── optic_disk.ipynb   # Notebook for optic disk prediction and vizualisation
+├── pngs.txt           # (INFORAMTION) List of image paths used for dataset creation
 ├── unet.ipynb         # (DEPRECATED) Self made U-Net training with PyTorch
 ├── uresnet.ipynb      # (DEPRECATED) Self made U-ResNet training with PyTorch
-├── pngs.txt           # (INFORAMTION) List of image paths used for dataset creation
 └── yolo.ipynb         # Notebook for Ultralytics' YOLO information and training
 ```
 
