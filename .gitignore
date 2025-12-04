@@ -5,6 +5,11 @@ data/
 datasets/
 runs/
 models/
+new_images/
+
+*.pt
+*.onnx
+*.mat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
