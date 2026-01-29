@@ -5,7 +5,7 @@
 [![button](https://img.shields.io/badge/Hugging_Face-YOLO__OpticDisk-blue?style=plastic&logo=huggingface&logoColor=yellow)](https://huggingface.co/DigitalHolography/YOLO_OpticDisk)
 [![button](https://img.shields.io/badge/Hugging_Face-UResNet__OpticDisk-darkred?style=plastic&logo=huggingface&logoColor=yellow)](https://huggingface.co/DigitalHolography/UResNet_OpticDisk)
 
-> Part of the [HoloVibes Project](https://github.com/DigitalHolography/Holovibes)
+> Part of the [Digital Holography Project](https://github.com/DigitalHolography)
 
 ## Description
 
