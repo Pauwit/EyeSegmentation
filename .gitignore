@@ -6,6 +6,9 @@ datasets/
 runs/
 models/
 new_images/
+same/
+
+*.png
 
 *.pt
 *.onnx
